@@ -29,8 +29,9 @@ function Properties({ featuredProperties }) {
           >
             <div className="flex-auto p-4 md:p-6 col-span-1">
               <h3 className="text-xl text-white/[.9] group-hover:text-white">
-                <span className="font-bold">Preline</span> Press publishes books
-                about economic and technological advancement.
+                <span className="font-bold">Optimum Estates</span> Press
+                publishes books about economic and technological adevancement in
+                the real estate sector.
               </h3>
             </div>
             <div className="pt-0 p-4 md:p-6">

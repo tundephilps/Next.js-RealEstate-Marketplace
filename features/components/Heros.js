@@ -26,13 +26,12 @@ const Heros = () => {
             <div className="flex flex-col items-center justify-between xl:flex-row">
               <div className="w-full max-w-xl mb-12 xl:mb-0 xl:pr-16 xl:w-7/12">
                 <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-white sm:text-4xl sm:leading-none">
-                  The quick, brown fox <br className="hidden md:block" />
-                  jumps over a lazy dog
+                  No 1 Real Estate <br className="hidden md:block" />
+                  Marketplace
                 </h2>
                 <p className="max-w-xl mb-4 text-base text-gray-200 md:text-lg">
-                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                  accusantium doloremque laudan, totam rem aperiam, eaque ipsa
-                  quae.
+                  Browse all of Dubai's finest Properties. accusantium
+                  doloremque laudan, totam rem aperiam, eaque ipsa quae.
                 </p>
                 <a
                   href="/"

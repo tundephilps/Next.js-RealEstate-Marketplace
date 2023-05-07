@@ -9,17 +9,17 @@ const Header = () => {
           className="max-w-[85rem] flex basis-full items-center w-full mx-auto px-4 sm:px-6 lg:px-8"
           aria-label="Global"
         >
-          <div className="mr-5 md:mr-8">
+          <div className="mr-5 md:mr-8   w-full">
             <a
-              className="flex-none text-xl font-semibold text-white"
+              className="flex  text-xl font-semibold text-white"
               href="#"
               aria-label="Brand"
             >
-              Brand
+              Optimum Estate
             </a>
           </div>
 
-          <div className="w-full flex items-center justify-end ml-auto sm:justify-between sm:gap-x-3 sm:order-3">
+          <div className="w-full flex items-center justify-end ml-auto sm:justify-between sm:gap-x-3 sm:order-3 ">
             <div className="sm:hidden">
               <button
                 type="button"
@@ -38,7 +38,7 @@ const Header = () => {
               </button>
             </div>
 
-            <div className="hidden mx-auto sm:block">
+            <div className="hidden mx-auto sm:block  lg:mr-80">
               <label htmlFor="icon" className="sr-only">
                 Search
               </label>
@@ -222,32 +222,29 @@ const Header = () => {
               </Link>
             </div>
             <div className="snap-center shrink-0 pr-5 sm:pr-8 sm:last:pr-0">
-              <a
+              <Link
+                href="/Blog"
                 className="inline-flex items-center gap-x-2 hover:text-gray-500 dark:text-gray-400 dark:hover:text-gray-500"
-                href="#"
               >
-                Account
-              </a>
+                Blog
+              </Link>
             </div>
             <div className="snap-center shrink-0 pr-5 sm:pr-8 sm:last:pr-0">
-              <a
+              <Link
+                href="/Projects"
                 className="inline-flex items-center gap-x-2 hover:text-gray-500 dark:text-gray-400 dark:hover:text-gray-500"
-                href="#"
               >
                 Projects
-              </a>
+              </Link>
             </div>
 
             <div className="snap-center shrink-0 pr-5 sm:pr-8 sm:last:pr-0">
-              <a
+              <Link
+                href="/Privacy"
                 className="inline-flex items-center gap-x-2 hover:text-gray-500 dark:text-gray-400 dark:hover:text-gray-500"
-                href="#"
               >
-                Documentation
-                <span className="inline bg-gray-100 text-xs text-gray-500 font-semibold rounded-full py-1 px-2 dark:bg-gray-700 dark:text-gray-400">
-                  v12.7
-                </span>
-              </a>
+                Privacy Policy
+              </Link>
             </div>
           </div>
         </nav>
